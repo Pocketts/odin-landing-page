@@ -14,27 +14,45 @@
     background-color: #E5E7EB;
 }
 
-.hero.left,
-.hero.right {
+.left,
+.right {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    border: #3882f6;
+    border-style: solid;
+    height: 300px;
+    
 }
 
 .hero {
-    justify-content: space-between;
+   
     padding-left: 36px;
     padding-right: 36px;
     padding-top: 8px;
     padding-bottom: 36px;
+   
 }
 
-.huong {
-    width: 300px;
-    height: 300px;
-}
 
 .text {
     color: #F9FAF8;
-    
+   
+    }
+
+a {
+    color: #E5E7EB;
 }
+.text.two {
+    color: #E5E7EB;
+   
+}
+
+ .huong {
+    min-width: 0px;
+    min-height: 0px;
+ }
+
+    button {
+        background-color: #3882f6;
+       
+    }
