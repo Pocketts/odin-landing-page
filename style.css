@@ -1,0 +1,15 @@
+.hero,
+.footer {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.info {
+    display: flex;
+        
+}
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+}
