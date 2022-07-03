@@ -13,3 +13,13 @@
     display: flex;
     background-color: #E5E7EB;
 }
+
+.hero.left,
+.hero.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    justify-content: space-between;
+}
