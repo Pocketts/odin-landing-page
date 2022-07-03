@@ -22,4 +22,14 @@
 
 .hero {
     justify-content: space-between;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 8px;
+    padding-bottom: 36px;
 }
+
+.huong {
+    width: 300px;
+    height: 300px;
+}
+
