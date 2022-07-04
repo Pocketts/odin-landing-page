@@ -6,12 +6,23 @@
 
 .info {
     display: flex;
-        
+    justify-content: center;
+    gap: 52px;
 }
 
 .quote {
     display: flex;
     background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    height: 500px;
+}
+
+.quote p {
+    width: 500px;
 }
 
 .left,
@@ -80,4 +91,29 @@ a {
   }
   .left {
     justify-content: space-evenly;
+  }
+  .tinfo {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .information {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+
+  .info img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .info {
+   max-width: 200px;
+    flex-direction: column;
+    padding-bottom: 75px;
   }
