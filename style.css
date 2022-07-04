@@ -110,10 +110,44 @@ a {
   .info img {
     width: 100px;
     height: 100px;
+    border: #3882f6;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
   }
 
   .info {
    max-width: 200px;
     flex-direction: column;
     padding-bottom: 75px;
+  }
+
+  .call {
+    display: flex;
+    background-color: #3882f6;
+    width: 1000px;
+    height: 300px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 350px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .call button {
+    border-color: white;
+    border-width: 3px;
+    color: white;
+    
+  }
+  .footer {
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    
+
   }
